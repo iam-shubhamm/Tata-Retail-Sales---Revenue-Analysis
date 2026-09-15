@@ -57,9 +57,9 @@ Recommendations
 # 🗂️ Dataset
 
 The project uses an Online Retail transaction dataset containing fields such as:
-```text
+
 Field	Description
-Invoice No	Transaction / invoice identifier
+Invoice No    Transaction / invoice identifier
 Stock Code	Product identifier
 Description	Product description
 Quantity	Number of units purchased
@@ -68,7 +68,7 @@ Unit Price	Price per unit
 Customer ID	Customer identifier
 Country	Customer's country
 Revenue	Revenue generated from the transaction
-```
+
 # 🧹 Data Preparation
 
 Before performing the analysis, transaction data should be checked for records that could distort the results.
