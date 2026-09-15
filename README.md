@@ -22,7 +22,7 @@ The project demonstrates how raw transactional data can be converted into busine
 
 ---
 
-# 🎯 Business Objective
+## 🎯 Business Objective
 
 The objective of this project was to analyze online retail transaction data and create visualizations that help management understand:
 
@@ -51,10 +51,10 @@ Business Insights
        ↓
 Recommendations
 ```
-# 🧩 Project Architecture
+## 🧩 Project Architecture
 <img width="952" height="354" alt="image" src="https://github.com/user-attachments/assets/2dff6875-c7ca-4daa-b3fe-c777f2c35caa" />
 
-# 🗂️ Dataset  
+## 🗂️ Dataset  
 
 The project uses an Online Retail transaction dataset containing fields such as:
 ```text
@@ -70,7 +70,7 @@ Country       Customer's country
 Revenue       Revenue generated from the transaction
 ```
 
-# 🧹 Data Preparation  
+## 🧹 Data Preparation  
 
 Before performing the analysis, transaction data should be checked for records that could distort the results.  
 
@@ -85,8 +85,8 @@ Incorrect or incomplete records
 ```
 The analysis focuses on valid transaction records so that revenue and quantity calculations provide meaningful business results.  
 
-## 📊 QUESTION 1 — Revenue by Month, 2011
-### 📌 **Business Question**  
+### 📊 QUESTION 1 — Revenue by Month, 2011
+#### 📌 **Business Question**  
 The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.  
   
 🛠️ **Tableau Solution**  
