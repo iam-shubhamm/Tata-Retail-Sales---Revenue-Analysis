@@ -1,5 +1,7 @@
 # 📊 Tata Retail Sales & Revenue Analysis
 
+### You can download the Tableau workbook from Google Drive:                      https://drive.google.com/file/d/1fwJEj2Bo3gjBalL8IhE9axGBJEmomIIz/view?usp=sharing
+
 ## 📌 Project Overview
 
 I completed the **Tata Data Visualisation: Empowering Business with Effective Insights** job simulation on Forage.
