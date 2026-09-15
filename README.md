@@ -85,8 +85,8 @@ Incorrect or incomplete records
 ```
 The analysis focuses on valid transaction records so that revenue and quantity calculations provide meaningful business results.  
 
-# 📊 QUESTION 1 — Revenue by Month, 2011
-📌 **Business Question**  
+## 📊 QUESTION 1 — Revenue by Month, 2011
+### 📌 **Business Question**  
 The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.  
   
 🛠️ **Tableau Solution**  
@@ -151,28 +151,22 @@ Holiday-related shopping
 
 📌 Business Question
 
-The CMO wants to identify the top 10 countries generating the highest revenue and compare their sales quantity, while excluding the United Kingdom.
+The CMO wants to identify the top 10 countries generating the highest revenue and compare their sales quantity, while excluding the United Kingdom.  
 
-🛠️ Tableau Solution
+🛠️ Tableau Solution  
 
 Chart Type:- Grouped Bar Chart & Tableau Configuration
 ```text
-Columns → Country + Measure Names
-       
-Rows → Measure Values
-       
+Columns → Country + Measure Names        
+Rows → Measure Values        
 Measures:
-SUM(Quantity)
-SUM(Revenue)
-       
+       SUM(Quantity)
+       SUM(Revenue)  
 Filters:
-Country
-Measure Names
-       
- Top 10 Countries by Revenue
-United Kingdom excluded
+       Country
+       Measure Names  
 ```
-📸 Solution Screenshot
+📸 Solution Screenshot  
        <img width="1905" height="1006" alt="image" src="https://github.com/user-attachments/assets/649a1645-5eb4-473f-afbf-21ef96dadfe9" />
 
 
