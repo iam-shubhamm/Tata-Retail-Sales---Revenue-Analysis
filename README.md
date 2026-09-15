@@ -88,7 +88,7 @@ The analysis focuses on valid transaction records so that revenue and quantity c
 # 📊 QUESTION 1 — Revenue by Month, 2011
 📌 Business Question
 
-The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.
+The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.  
 🛠️ Tableau Solution
 Chart Type:-Line Chart
 Tableau Configuration
