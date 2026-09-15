@@ -50,18 +50,7 @@ Tableau Visualization
 Business Insights
        ↓
 Recommendations
+```
+# 🧩 Project Architecture
+<img width="952" height="354" alt="image" src="https://github.com/user-attachments/assets/2dff6875-c7ca-4daa-b3fe-c777f2c35caa" />
 
-# 🗂️ Dataset
-
-The project uses an Online Retail transaction dataset containing fields such as:
-
-Field	Description
-Invoice No	Transaction / invoice identifier
-Stock Code	Product identifier
-Description	Product description
-Quantity	Number of units purchased
-Invoice Date	Date and time of transaction
-Unit Price	Price per unit
-Customer ID	Customer identifier
-Country	Customer's country
-Revenue	Revenue generated from the transaction
