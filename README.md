@@ -86,12 +86,11 @@ Incorrect or incomplete records
 The analysis focuses on valid transaction records so that revenue and quantity calculations provide meaningful business results.
 
 # 📊 QUESTION 1 — Revenue by Month, 2011
-📌 **Business Question**
+📌 Business Question
 
 The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.
-🛠️ **Tableau Solution**\n
+🛠️ Tableau Solution
 Chart Type:-Line Chart
-
 Tableau Configuration
 ```text
 Columns → MONTH(Invoice Date)
