@@ -159,8 +159,8 @@ The CMO wants to identify the top 10 countries generating the highest revenue an
 
 🛠️ Tableau Solution
 
-       Chart Type:- Grouped Bar Chart & Tableau Configuration
-       ```text
+Chart Type:- Grouped Bar Chart & Tableau Configuration
+```text
        Columns → Country + Measure Names
        
        Rows → Measure Values
@@ -180,7 +180,7 @@ The CMO wants to identify the top 10 countries generating the highest revenue an
        <img width="1905" height="1006" alt="image" src="https://github.com/user-attachments/assets/649a1645-5eb4-473f-afbf-21ef96dadfe9" />
 
 
-       🌎 Countries Highlighted
+🌎 Countries Highlighted
 
 The visualization identifies the following major markets:
 ```text
@@ -218,6 +218,347 @@ Localized promotions
 Product expansion
 Increased advertising investment
 ```
+#👥 QUESTION 3 — Top 10 Customers by Revenue
+📌 Business Question
+
+The CMO wants to identify the top 10 customers by revenue, with the highest revenue-generating customer shown first.
+
+🛠️ Tableau Solution
+
+Chart Type:- Horizontal Bar Chart
+
+Tableau Configuration
+
+       Rows → Customer ID
+       Columns → SUM(Revenue)
+       Filter → Top 10 Customers by Revenue
+       Sort → Descending by Revenue
+📸 Solution Screenshot
+
+<img width="1915" height="1009" alt="image" src="https://github.com/user-attachments/assets/363ee575-51ac-4020-b37b-a88ed6544de6" />
+
+📈 Results
+```text
+Rank	Customer ID	Revenue
+1	14646         $280.21K
+2	18102         $259.66K
+3	17450         $194.55K
+4	16446         $168.47K
+5	14911         $143.83K
+6	12415         $124.91K
+7	14156         $117.38K
+8	17511         $91.06K
+9	16029         $81.02K
+10	12346         $77.18K
+```
+💡 Key Insight
+
+Customer 14646 is the highest-revenue customer in the visualization, generating approximately: $280.21K
+Customer 18102 is the second-highest, generating approximately: $259.66K
+The top 10 customers shown in the worksheet collectively contribute approximately $1.54M in revenue.
+
+🎯 Business Recommendation
+
+High-value customers should be considered a priority for retention and relationship management.
+
+Potential strategies include:
+
+       VIP customer programs
+       Personalized offers
+       Loyalty rewards
+       Customer retention campaigns
+       Cross-selling
+       Upselling
+       Personalized communication
+
+The company should also monitor customer concentration to understand the risk of relying heavily on a small number of high-value customers.
+
+# 🗺️ QUESTION 4 — Revenue by Country
+📌 Business Question
+
+The fourth visualization provides a geographic view of country-level business performance and helps management understand where revenue is being generated.
+
+🛠️ Tableau Solution
+Chart Type:-Geographic Map
+
+Tableau Configuration
+
+       Columns → Longitude (generated)
+       Rows → Latitude (generated)
+       Detail → Country
+       Color → SUM(Revenue)
+       Filter → Country
+       
+📸 Solution Screenshot
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/5adb2f1a-5ab1-4450-82c7-3c8a3c5ac8e9" />
+
+
+💡 Key Insight
+
+A geographic visualization makes it easier to understand how business performance is distributed across countries.
+Instead of analyzing countries individually in a table, management can visually identify geographic areas with stronger business activity.
+This can support further investigation into:
+       
+       International market performance
+       Revenue concentration
+       Geographic opportunities
+       Marketing priorities
+       Market expansion
+       
+🎯 Business Recommendation
+
+The business can combine geographic performance with other factors such as:
+
+       Market size
+       Customer growth
+       Sales quantity
+       Revenue
+       Competition
+       Logistics
+       Product demand
+
+
+
+📊 Overall Business Insights
+
+The four visualizations provide several important observations.
+
+💰 1. Revenue shows a strong late-year increase
+
+The monthly revenue analysis shows a significant increase from September to November, with November reaching approximately $1.51M.
+
+🌍 2. International markets have different performance profiles
+
+Comparing revenue and quantity allows management to understand that sales volume and revenue are not necessarily proportional.
+
+👥 3. High-value customers contribute significant revenue
+
+The Top 10 customer analysis identifies customers that have a substantial impact on revenue generation.
+
+🗺️ 4. Geographic analysis supports market evaluation
+
+The country map provides an intuitive way to understand where the business generates revenue.
+
+🎯 5. Business questions should drive visualization selection
+
+Different business questions require different visualization techniques.
+
+Revenue Trend
+     ↓
+Line Chart
+
+Country Comparison
+     ↓
+Grouped Bar Chart
+
+Customer Ranking
+     ↓
+Horizontal Bar Chart
+
+Geographic Analysis
+     ↓
+Map
+💡 Overall Business Recommendations
+
+Based on the analysis, management could consider the following actions.
+
+1. Investigate seasonal revenue patterns
+
+Study why revenue increases significantly during September–November and determine whether similar strategies can be used in future years.
+
+2. Focus on high-performing international markets
+
+Use revenue and quantity analysis to identify countries that could benefit from additional marketing investment.
+
+3. Strengthen customer retention
+
+Develop personalized strategies for high-value customers to improve retention and lifetime value.
+
+4. Evaluate expansion opportunities
+
+Use geographic analysis as an initial screening tool before conducting detailed market research.
+
+5. Monitor customer concentration
+
+Track the contribution of high-value customers to total revenue and develop strategies to reduce dependency risk.
+
+🖥️ Professional Dashboard Approach
+
+The project follows a stakeholder-focused analytical flow:
+
+┌──────────────────────────┐
+│     REVENUE TREND        │
+│      Question 1          │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│    MARKET PERFORMANCE    │
+│      Question 2          │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│     CUSTOMER VALUE       │
+│      Question 3          │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│   GEOGRAPHIC ANALYSIS    │
+│      Question 4          │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ BUSINESS INSIGHTS &      │
+│ RECOMMENDATIONS          │
+└──────────────────────────┘
+
+This approach helps move from:
+
+How is the business performing?
+
+to:
+
+Where is the business performing?
+
+to:
+
+Who is generating the revenue?
+
+to:
+
+Which markets should be investigated further?
+
+🎨 Visualization Design
+
+The project demonstrates the principle:
+
+Choose the visualization based on the business question.
+
+Business Question	Visualization	Purpose
+Monthly revenue trend	Line Chart	Identify trends and seasonality
+Country comparison	Grouped Bar Chart	Compare revenue and quantity
+Customer ranking	Horizontal Bar Chart	Rank high-value customers
+Geographic performance	Map	Understand geographic distribution
+🛠️ Tools & Technologies
+Visualization
+Tableau Desktop
+Data Analysis
+Data Cleaning
+Exploratory Data Analysis
+Data Aggregation
+Filtering
+Sorting
+Top-N Analysis
+Time-Series Analysis
+Geographic Analysis
+Business Intelligence
+KPI Analysis
+Revenue Analysis
+Customer Analysis
+Market Analysis
+Data Storytelling
+Stakeholder Analysis
+Business Decision Support
+🧠 Skills Demonstrated
+✓ Tableau
+✓ Data Visualization
+✓ Business Intelligence
+✓ Data Analysis
+✓ Data Cleaning
+✓ Exploratory Data Analysis
+✓ Revenue Analysis
+✓ Customer Analysis
+✓ Geographic Analysis
+✓ Trend Analysis
+✓ Data Storytelling
+✓ Business Analysis
+✓ Stakeholder Requirement Analysis
+✓ Executive Reporting
+✓ Insight Communication
+📁 Repository Structure
+Tata-Data-Visualisation-Forage/
+│
+├── README.md
+│
+├── Dashboard/
+│   └── Tata_Retail_Analysis.twbx
+│
+├── Screenshots/
+│   ├── Question_1_Revenue_by_Month.png
+│   ├── Question_2_Top_Countries.png
+│   ├── Question_3_Top_Customers.png
+│   └── Question_4_Revenue_by_Country.png
+│
+├── Data/
+│   └── Online_Retail_Data.xlsx
+│
+└── Documentation/
+    └── Project_Insights.md
+🏆 Forage Job Simulation
+Program
+
+Tata Data Visualisation: Empowering Business with Effective Insights
+
+Platform
+
+Forage
+
+Completion
+
+August 2026
+
+Primary Tool
+
+Tableau Desktop
+
+Practical Areas Covered
+Framing the Business Scenario
+Choosing the Right Visuals
+Creating Effective Visuals
+Communicating Insights and Analysis
+📜 Certificate
+
+The project was completed as part of the Tata Data Visualisation job simulation on Forage.
+
+Certificate:
+
+Certificate/Tata_Forage_Certificate.pdf
+
+🚀 Project Takeaway
+
+This project demonstrates how a Data Analyst can transform transactional retail data into business-focused insights.
+
+The key lesson is that effective data analytics is not only about creating charts.
+
+It is about:
+
+Understanding the Business Question
+             ↓
+Selecting the Right Data
+             ↓
+Choosing the Right Visualization
+             ↓
+Finding Meaningful Patterns
+             ↓
+Communicating the Insight
+             ↓
+Supporting Business Decisions
+👨‍💻 Author
+Shubham Singh
+
+Data Analyst | Business Intelligence | Data Visualization
+
+Areas of Interest
+Data Analytics
+Business Intelligence
+Tableau
+Power BI
+SQL
+Data Visualization
+Business Analytics
+Data Storytelling
+⭐ If you found this project useful
+
+Feel free to star ⭐ the repository and explore the visualizations.
 
 
 
