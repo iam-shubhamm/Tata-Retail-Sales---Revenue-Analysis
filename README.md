@@ -109,7 +109,6 @@ Revenue
 
 <img width="1918" height="1000" alt="image" src="https://github.com/user-attachments/assets/636c6748-73ad-48f8-8623-863423d99cdc" />
 
-
 📈 **Results**
 ```text
 Month         Revenue
@@ -148,7 +147,6 @@ Product demand
 Customer purchasing patterns
 Holiday-related shopping
 ```
-Understanding these patterns could help the company plan future marketing and inventory strategies.
 
 # 🌍 QUESTION 2 — Top 10 Countries by Revenue & Quantity
 
