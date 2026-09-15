@@ -111,9 +111,10 @@ Revenue
 <img width="1918" height="1000" alt="image" src="https://github.com/user-attachments/assets/636c6748-73ad-48f8-8623-863423d99cdc" />
 
 📈 Results
-Month	Revenue
-January	$0.69M
-February	$0.52M
+```text
+Month         Revenue
+January       $0.69M
+February      $0.52M
 March         $0.72M
 April         $0.54M
 May           $0.77M
@@ -124,6 +125,7 @@ September     $1.06M
 October       $1.15M
 November      $1.51M
 December      $0.64M
+```
 
 💡 Key Insight
 
@@ -138,13 +140,14 @@ There was then a significant decline in December to approximately $0.64M.
 The business should investigate the factors behind the strong September–November performance.
 
 Possible areas for further analysis include:
+```text
 Seasonal purchasing behavior
 Marketing campaigns
 Promotions
 Product demand
 Customer purchasing patterns
 Holiday-related shopping
-
+```
 Understanding these patterns could help the company plan future marketing and inventory strategies.
 
 
