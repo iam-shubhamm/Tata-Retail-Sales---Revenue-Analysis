@@ -89,7 +89,7 @@ The analysis focuses on valid transaction records so that revenue and quantity c
 📌 **Business Question**
 
 The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.
-🛠️ **Tableau Solution**
+🛠️ **Tableau Solution**\n
 Chart Type:-Line Chart
 
 Tableau Configuration
@@ -105,11 +105,11 @@ Main Fields Used
 Invoice Date
 Revenue
 ```
-📸 **Solution Screenshot**
+📸 Solution Screenshot
 
 <img width="1918" height="1000" alt="image" src="https://github.com/user-attachments/assets/636c6748-73ad-48f8-8623-863423d99cdc" />
 
-📈 **Results**
+📈 Results
 ```text
 Month         Revenue
 January       $0.69M
@@ -126,7 +126,7 @@ November      $1.51M
 December      $0.64M
 ```
 
-💡 **Key Insight**
+💡 Key Insight
 
 Revenue remained relatively moderate during the first part of 2011 but increased significantly from September onwards.
 The highest monthly revenue was:
