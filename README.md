@@ -85,11 +85,11 @@ Incorrect or incomplete records
 ```
 The analysis focuses on valid transaction records so that revenue and quantity calculations provide meaningful business results.  
 
-### 📊 QUESTION 1 — Revenue by Month, 2011
-#### 📌 **Business Question**  
+## 📊 QUESTION 1 — Revenue by Month, 2011
+### 📌 **Business Question**  
 The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.  
   
-🛠️ **Tableau Solution**  
+### 🛠️ **Tableau Solution**  
 Chart Type:-Line Chart  
 Tableau Configuration  
 ```text
@@ -104,11 +104,11 @@ Filter → YEAR(Invoice Date) = 2011
 Invoice Date
 Revenue
 ```
-📸 **Solution Screenshot**  
+### 📸 **Solution Screenshot**  
 
 <img width="1918" height="1000" alt="image" src="https://github.com/user-attachments/assets/636c6748-73ad-48f8-8623-863423d99cdc" />  
   
-📈 **Results**  
+### 📈 **Results**  
 ```text
 Month         Revenue
 January       $0.69M
@@ -125,7 +125,7 @@ November      $1.51M
 December      $0.64M
 ```
 
-💡 **Key Insight**  
+### 💡 **Key Insight**  
 
 Revenue remained relatively moderate during the first part of 2011 but increased significantly from September onwards.  
 The highest monthly revenue was:  
@@ -134,7 +134,7 @@ November — approximately $1.51M
 
 There was then a significant decline in December to approximately $0.64M.  
 
-🎯 **Business Recommendation**  
+### 🎯 **Business Recommendation**  
 The business should investigate the factors behind the strong September–November performance. 
 
 Possible areas for further analysis include:  
@@ -147,15 +147,15 @@ Customer purchasing patterns
 Holiday-related shopping
 ```
 
-# 🌍 QUESTION 2 — Top 10 Countries by Revenue & Quantity
+## 🌍 QUESTION 2 — Top 10 Countries by Revenue & Quantity
 
-📌 Business Question
+### 📌 Business Question
 
 The CMO wants to identify the top 10 countries generating the highest revenue and compare their sales quantity, while excluding the United Kingdom.  
 
-🛠️ Tableau Solution  
+### 🛠️ Tableau Solution  
 
-Chart Type:- Grouped Bar Chart & Tableau Configuration
+Chart Type:- Grouped Bar Chart & Tableau Configuration  
 ```text
 Columns → Country + Measure Names        
 Rows → Measure Values        
@@ -166,13 +166,13 @@ Filters:
        Country
        Measure Names  
 ```
-📸 Solution Screenshot  
-       <img width="1905" height="1006" alt="image" src="https://github.com/user-attachments/assets/649a1645-5eb4-473f-afbf-21ef96dadfe9" />
+### 📸 Solution Screenshot  
+ <img width="1905" height="1006" alt="image" src="https://github.com/user-attachments/assets/649a1645-5eb4-473f-afbf-21ef96dadfe9" />  
 
 
-🌎 Countries Highlighted
+### 🌎 Countries Highlighted  
 
-The visualization identifies the following major markets:
+The visualization identifies the following major markets:  
 ```text
 Netherlands
 Ireland
@@ -185,10 +185,10 @@ Sweden
 Belgium
 Japan
 ```
-💡 Key Insight
+### 💡 Key Insight  
 
 The visualization compares Revenue and Quantity together.This is useful because a country with a high sales quantity does not necessarily generate the highest revenue.
-The difference between revenue and quantity can help management investigate:
+The difference between revenue and quantity can help management investigate:  
 ```text
 Product mix
 Order size
@@ -196,11 +196,11 @@ Customer purchasing behavior
 Average transaction value
 Market characteristics
 ```
-🎯 Business Recommendation
+### 🎯 Business Recommendation  
 
-The CMO can use this analysis to identify international markets that may deserve additional attention.
+The CMO can use this analysis to identify international markets that may deserve additional attention.  
 
-Potential actions include:
+Potential actions include:  
 ```text
 Targeted marketing campaigns
 Customer acquisition
@@ -208,14 +208,14 @@ Localized promotions
 Product expansion
 Increased advertising investment
 ```
-#👥 QUESTION 3 — Top 10 Customers by Revenue
-📌 Business Question
+## 👥 QUESTION 3 — Top 10 Customers by Revenue
+### 📌 Business Question 
 
 The CMO wants to identify the top 10 customers by revenue, with the highest revenue-generating customer shown first.
 
-🛠️ Tableau Solution
+### 🛠️ Tableau Solution  
 
-Chart Type:- Horizontal Bar Chart
+Chart Type:- Horizontal Bar Chart  
 
 Tableau Configuration
 
@@ -223,16 +223,16 @@ Tableau Configuration
        Columns → SUM(Revenue)
        Filter → Top 10 Customers by Revenue
        Sort → Descending by Revenue
-📸 Solution Screenshot
+### 📸 Solution Screenshot  
 
 <img width="1915" height="1009" alt="image" src="https://github.com/user-attachments/assets/363ee575-51ac-4020-b37b-a88ed6544de6" />
 
-📈 Results
+### 📈 Results  
 ```text
 Rank	Customer ID	Revenue
-1	14646         $280.21K
-2	18102         $259.66K
-3	17450         $194.55K
+1	14646         $280.21K  
+2	18102         $259.66K  
+3	17450         $194.55K  
 4	16446         $168.47K
 5	14911         $143.83K
 6	12415         $124.91K
@@ -241,17 +241,17 @@ Rank	Customer ID	Revenue
 9	16029         $81.02K
 10	12346         $77.18K
 ```
-💡 Key Insight
+### 💡 Key Insight  
 
-Customer 14646 is the highest-revenue customer in the visualization, generating approximately: $280.21K
-Customer 18102 is the second-highest, generating approximately: $259.66K
-The top 10 customers shown in the worksheet collectively contribute approximately $1.54M in revenue.
+Customer 14646 is the highest-revenue customer in the visualization, generating approximately: $280.21K  
+Customer 18102 is the second-highest, generating approximately: $259.66K  
+The top 10 customers shown in the worksheet collectively contribute approximately $1.54M in revenue.  
 
-🎯 Business Recommendation
+### 🎯 Business Recommendation  
 
-High-value customers should be considered a priority for retention and relationship management.
+High-value customers should be considered a priority for retention and relationship management.  
 
-Potential strategies include:
+Potential strategies include:  
 
        VIP customer programs
        Personalized offers
@@ -260,18 +260,17 @@ Potential strategies include:
        Cross-selling
        Upselling
        Personalized communication
+  
 
-The company should also monitor customer concentration to understand the risk of relying heavily on a small number of high-value customers.
+## 🗺️ QUESTION 4 — Revenue by Country  
+### 📌 Business Question  
 
-# 🗺️ QUESTION 4 — Revenue by Country
-📌 Business Question
+The fourth visualization provides a geographic view of country-level business performance and helps management understand where revenue is being generated.  
 
-The fourth visualization provides a geographic view of country-level business performance and helps management understand where revenue is being generated.
+### 🛠️ Tableau Solution  
+Chart Type:-Geographic Map  
 
-🛠️ Tableau Solution
-Chart Type:-Geographic Map
-
-Tableau Configuration
+Tableau Configuration  
 
        Columns → Longitude (generated)
        Rows → Latitude (generated)
@@ -279,15 +278,15 @@ Tableau Configuration
        Color → SUM(Revenue)
        Filter → Country
        
-📸 Solution Screenshot
+### 📸 Solution Screenshot  
 <img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/5adb2f1a-5ab1-4450-82c7-3c8a3c5ac8e9" />
 
 
-💡 Key Insight
+### 💡 Key Insight  
 
-A geographic visualization makes it easier to understand how business performance is distributed across countries.
-Instead of analyzing countries individually in a table, management can visually identify geographic areas with stronger business activity.
-This can support further investigation into:
+A geographic visualization makes it easier to understand how business performance is distributed across countries.  
+Instead of analyzing countries individually in a table, management can visually identify geographic areas with stronger business activity.  
+This can support further investigation into:  
        
        International market performance
        Revenue concentration
@@ -295,9 +294,9 @@ This can support further investigation into:
        Marketing priorities
        Market expansion
        
-🎯 Business Recommendation
+### 🎯 Business Recommendation  
 
-The business can combine geographic performance with other factors such as:
+The business can combine geographic performance with other factors such as:  
 
        Market size
        Customer growth
@@ -309,7 +308,7 @@ The business can combine geographic performance with other factors such as:
 
 
 
-📊 Overall Business Insights
+## 📊 Overall Business Insights
 
 The four visualizations provide several important observations.
 
