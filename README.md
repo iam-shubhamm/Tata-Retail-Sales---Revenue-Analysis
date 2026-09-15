@@ -2,9 +2,10 @@
 
 ## 📌 Project Overview
 
-This project was completed as part of the **Tata Data Visualisation: Empowering Business with Effective Insights** job simulation on **Forage**.
-
-The project simulates a business analytics scenario where retail transaction data is analyzed and transformed into meaningful visualizations for business decision-making.
+I completed the **Tata Data Visualisation: Empowering Business with Effective Insights** job simulation on Forage.
+In this simulation, I worked with an online retail dataset and used Tableau to answer business questions from the perspective of a CEO and CMO.
+The main purpose of the project was to understand the data, create suitable visualizations, and use those visualizations to find useful business insights.
+I created four visualizations based on the questions given in the simulation.  
 
 The analysis focuses on the requirements of two key stakeholders:
 
@@ -312,239 +313,132 @@ The business can combine geographic performance with other factors such as:
 
 The four visualizations provide several important observations.
 
-💰 1. Revenue shows a strong late-year increase
+#### 💰 1. Revenue shows a strong late-year increase
 
-The monthly revenue analysis shows a significant increase from September to November, with November reaching approximately $1.51M.
+       The monthly revenue analysis shows a significant increase from September to November, with November reaching approximately $1.51M.
 
-🌍 2. International markets have different performance profiles
+#### 🌍 2. International markets have different performance profiles
 
-Comparing revenue and quantity allows management to understand that sales volume and revenue are not necessarily proportional.
+       Comparing revenue and quantity allows management to understand that sales volume and revenue are not necessarily proportional.
 
-👥 3. High-value customers contribute significant revenue
+#### 👥 3. High-value customers contribute significant revenue
 
-The Top 10 customer analysis identifies customers that have a substantial impact on revenue generation.
+       The Top 10 customer analysis identifies customers that have a substantial impact on revenue generation.
 
-🗺️ 4. Geographic analysis supports market evaluation
+#### 🗺️ 4. Geographic analysis supports market evaluation
 
-The country map provides an intuitive way to understand where the business generates revenue.
+       The country map provides an intuitive way to understand where the business generates revenue.
 
-🎯 5. Business questions should drive visualization selection
+#### 🎯 5. Business questions should drive visualization selection
 
-Different business questions require different visualization techniques.
+       Different business questions require different visualization techniques.
+                            
+                                   Revenue Trend
+                                        ↓
+                                   Line Chart
+                                   
+                                   Country Comparison
+                                        ↓
+                                   Grouped Bar Chart
+                                   
+                                   Customer Ranking
+                                        ↓
+                                   Horizontal Bar Chart
+                                   
+                                   Geographic Analysis
+                                        ↓
+                                       Map
+##💡 Overall Business Recommendations
 
-Revenue Trend
-     ↓
-Line Chart
-
-Country Comparison
-     ↓
-Grouped Bar Chart
-
-Customer Ranking
-     ↓
-Horizontal Bar Chart
-
-Geographic Analysis
-     ↓
-Map
-💡 Overall Business Recommendations
-
-Based on the analysis, management could consider the following actions.
+#### Based on the analysis, management could consider the following actions.
 
 1. Investigate seasonal revenue patterns
 
-Study why revenue increases significantly during September–November and determine whether similar strategies can be used in future years.
+       Study why revenue increases significantly during September–November and determine whether similar strategies can be used in future years.
 
 2. Focus on high-performing international markets
 
-Use revenue and quantity analysis to identify countries that could benefit from additional marketing investment.
+       Use revenue and quantity analysis to identify countries that could benefit from additional marketing investment.
 
 3. Strengthen customer retention
 
-Develop personalized strategies for high-value customers to improve retention and lifetime value.
+       Develop personalized strategies for high-value customers to improve retention and lifetime value.
 
 4. Evaluate expansion opportunities
 
-Use geographic analysis as an initial screening tool before conducting detailed market research.
+       Use geographic analysis as an initial screening tool before conducting detailed market research.
 
 5. Monitor customer concentration
 
-Track the contribution of high-value customers to total revenue and develop strategies to reduce dependency risk.
+       Track the contribution of high-value customers to total revenue and develop strategies to reduce dependency risk.
 
-🖥️ Professional Dashboard Approach
 
-The project follows a stakeholder-focused analytical flow:
-
-┌──────────────────────────┐
-│     REVENUE TREND        │
-│      Question 1          │
-└────────────┬─────────────┘
-             ↓
-┌──────────────────────────┐
-│    MARKET PERFORMANCE    │
-│      Question 2          │
-└────────────┬─────────────┘
-             ↓
-┌──────────────────────────┐
-│     CUSTOMER VALUE       │
-│      Question 3          │
-└────────────┬─────────────┘
-             ↓
-┌──────────────────────────┐
-│   GEOGRAPHIC ANALYSIS    │
-│      Question 4          │
-└────────────┬─────────────┘
-             ↓
-┌──────────────────────────┐
-│ BUSINESS INSIGHTS &      │
-│ RECOMMENDATIONS          │
-└──────────────────────────┘
-
-This approach helps move from:
-
-How is the business performing?
-
-to:
-
-Where is the business performing?
-
-to:
-
-Who is generating the revenue?
-
-to:
-
-Which markets should be investigated further?
-
-🎨 Visualization Design
+## 🎨 Visualization Design
 
 The project demonstrates the principle:
 
 Choose the visualization based on the business question.
 
-Business Question	Visualization	Purpose
-Monthly revenue trend	Line Chart	Identify trends and seasonality
-Country comparison	Grouped Bar Chart	Compare revenue and quantity
-Customer ranking	Horizontal Bar Chart	Rank high-value customers
-Geographic performance	Map	Understand geographic distribution
-🛠️ Tools & Technologies
-Visualization
-Tableau Desktop
-Data Analysis
-Data Cleaning
-Exploratory Data Analysis
-Data Aggregation
-Filtering
-Sorting
-Top-N Analysis
-Time-Series Analysis
-Geographic Analysis
-Business Intelligence
-KPI Analysis
-Revenue Analysis
-Customer Analysis
-Market Analysis
-Data Storytelling
-Stakeholder Analysis
-Business Decision Support
-🧠 Skills Demonstrated
-✓ Tableau
-✓ Data Visualization
-✓ Business Intelligence
-✓ Data Analysis
-✓ Data Cleaning
-✓ Exploratory Data Analysis
-✓ Revenue Analysis
-✓ Customer Analysis
-✓ Geographic Analysis
-✓ Trend Analysis
-✓ Data Storytelling
-✓ Business Analysis
-✓ Stakeholder Requirement Analysis
-✓ Executive Reporting
-✓ Insight Communication
-📁 Repository Structure
-Tata-Data-Visualisation-Forage/
-│
-├── README.md
-│
-├── Dashboard/
-│   └── Tata_Retail_Analysis.twbx
-│
-├── Screenshots/
-│   ├── Question_1_Revenue_by_Month.png
-│   ├── Question_2_Top_Countries.png
-│   ├── Question_3_Top_Customers.png
-│   └── Question_4_Revenue_by_Country.png
-│
-├── Data/
-│   └── Online_Retail_Data.xlsx
-│
-└── Documentation/
-    └── Project_Insights.md
-🏆 Forage Job Simulation
-Program
+       Business Question       	Visualization	                        Purpose
+       Monthly revenue trend	Line Chart	              Identify trends and seasonality
+       Country comparison	       Grouped Bar Chart	       Compare revenue and quantity
+       Customer ranking	       Horizontal Bar Chart	       Rank high-value customers
+       Geographic performance	Map	                     Understand geographic distribution
+## 🛠️ Tools & Technologies
+       Visualization
+       Tableau Desktop
+       Data Analysis
+       Data Cleaning
+       Exploratory Data Analysis
+       Data Aggregation
+       Filtering
+       Sorting
+       Top-N Analysis
+       Time-Series Analysis
+       Geographic Analysis
+       Business Intelligence
+       KPI Analysis
+       Revenue Analysis
+       Customer Analysis
+       Market Analysis
+       Data Storytelling
+       Stakeholder Analysis
+       Business Decision Support
+## 🧠 Skills Demonstrated
+       ✓ Tableau
+       ✓ Data Visualization
+       ✓ Business Intelligence
+       ✓ Data Analysis
+       ✓ Data Cleaning
+       ✓ Exploratory Data Analysis
+       ✓ Revenue Analysis
+       ✓ Customer Analysis
+       ✓ Geographic Analysis
+       ✓ Trend Analysis
+       ✓ Data Storytelling
+       ✓ Business Analysis
+       ✓ Stakeholder Requirement Analysis
+       ✓ Executive Reporting
+       ✓ Insight Communication
 
-Tata Data Visualisation: Empowering Business with Effective Insights
-
-Platform
-
-Forage
-
-Completion
-
-August 2026
-
-Primary Tool
-
-Tableau Desktop
-
-Practical Areas Covered
-Framing the Business Scenario
-Choosing the Right Visuals
-Creating Effective Visuals
-Communicating Insights and Analysis
-📜 Certificate
+## 📜 Certificate
 
 The project was completed as part of the Tata Data Visualisation job simulation on Forage.
 
-Certificate:
+### Certificate:
+<img width="421" height="300" alt="image" src="https://github.com/user-attachments/assets/d7824e6e-4100-452e-8d0f-099f8e846dc7" />
 
-Certificate/Tata_Forage_Certificate.pdf
 
-🚀 Project Takeaway
 
-This project demonstrates how a Data Analyst can transform transactional retail data into business-focused insights.
+## 👨‍💻 Author
+Shubham Singh  
+Data Analyst | Business Intelligence | Data Visualization  
 
-The key lesson is that effective data analytics is not only about creating charts.
+Areas of Interest   
 
-It is about:
-
-Understanding the Business Question
-             ↓
-Selecting the Right Data
-             ↓
-Choosing the Right Visualization
-             ↓
-Finding Meaningful Patterns
-             ↓
-Communicating the Insight
-             ↓
-Supporting Business Decisions
-👨‍💻 Author
-Shubham Singh
-
-Data Analyst | Business Intelligence | Data Visualization
-
-Areas of Interest
-Data Analytics
-Business Intelligence
-Tableau
-Power BI
-SQL
-Data Visualization
-Business Analytics
-Data Storytelling
+       Data Analytics, Business Analyst, BI Analyst, Data Engineer, Product Analyst, BI Developer, Data Scientist, Marketing Analyst   
+       Analytics Eng. Financial Analyst, Operations Analyst
+       
 ⭐ If you found this project useful
 
 Feel free to star ⭐ the repository and explore the visualizations.
