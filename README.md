@@ -107,7 +107,7 @@ Revenue
 📸 **Solution Screenshot**  
 
 <img width="1918" height="1000" alt="image" src="https://github.com/user-attachments/assets/636c6748-73ad-48f8-8623-863423d99cdc" />  
-
+  
 📈 **Results**  
 ```text
 Month         Revenue
@@ -157,21 +157,21 @@ The CMO wants to identify the top 10 countries generating the highest revenue an
 
 Chart Type:- Grouped Bar Chart & Tableau Configuration
 ```text
-       Columns → Country + Measure Names
+Columns → Country + Measure Names
        
-       Rows → Measure Values
+Rows → Measure Values
        
-       Measures:
-           SUM(Quantity)
-           SUM(Revenue)
+Measures:
+SUM(Quantity)
+SUM(Revenue)
        
-       Filters:
-           Country
-           Measure Names
+Filters:
+Country
+Measure Names
        
-       Top 10 Countries by Revenue
-       United Kingdom excluded
-       ```
+ Top 10 Countries by Revenue
+United Kingdom excluded
+```
 📸 Solution Screenshot
        <img width="1905" height="1006" alt="image" src="https://github.com/user-attachments/assets/649a1645-5eb4-473f-afbf-21ef96dadfe9" />
 
