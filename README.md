@@ -1,4 +1,4 @@
-# 📊 Tata Data Visualisation — Empowering Business with Effective Insights
+# 📊 Tata Retail Sales & Revenue Analysis
 
 ## 📌 Project Overview
 
