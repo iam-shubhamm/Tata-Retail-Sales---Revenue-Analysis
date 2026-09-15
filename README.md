@@ -108,6 +108,7 @@ Invoice Date
 Revenue
 ```
 📸 Solution Screenshot
+
 <img width="1918" height="1000" alt="image" src="https://github.com/user-attachments/assets/636c6748-73ad-48f8-8623-863423d99cdc" />
 
 📈 Results
@@ -149,6 +150,74 @@ Customer purchasing patterns
 Holiday-related shopping
 ```
 Understanding these patterns could help the company plan future marketing and inventory strategies.
+
+# 🌍 QUESTION 2 — Top 10 Countries by Revenue & Quantity
+
+📌 Business Question
+
+The CMO wants to identify the top 10 countries generating the highest revenue and compare their sales quantity, while excluding the United Kingdom.
+
+🛠️ Tableau Solution
+
+       Chart Type:- Grouped Bar Chart & Tableau Configuration
+       ```text
+       Columns → Country + Measure Names
+       
+       Rows → Measure Values
+       
+       Measures:
+           SUM(Quantity)
+           SUM(Revenue)
+       
+       Filters:
+           Country
+           Measure Names
+       
+       Top 10 Countries by Revenue
+       United Kingdom excluded
+       ```
+📸 Solution Screenshot
+       <img width="1905" height="1006" alt="image" src="https://github.com/user-attachments/assets/649a1645-5eb4-473f-afbf-21ef96dadfe9" />
+
+
+       🌎 Countries Highlighted
+
+The visualization identifies the following major markets:
+```text
+Netherlands
+Ireland
+Germany
+France
+Australia
+Spain
+Switzerland
+Sweden
+Belgium
+Japan
+```
+💡 Key Insight
+
+The visualization compares Revenue and Quantity together.This is useful because a country with a high sales quantity does not necessarily generate the highest revenue.
+The difference between revenue and quantity can help management investigate:
+```text
+Product mix
+Order size
+Customer purchasing behavior
+Average transaction value
+Market characteristics
+```
+🎯 Business Recommendation
+
+The CMO can use this analysis to identify international markets that may deserve additional attention.
+
+Potential actions include:
+```text
+Targeted marketing campaigns
+Customer acquisition
+Localized promotions
+Product expansion
+Increased advertising investment
+```
 
 
 
