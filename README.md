@@ -54,7 +54,7 @@ Recommendations
 # 🧩 Project Architecture
 <img width="952" height="354" alt="image" src="https://github.com/user-attachments/assets/2dff6875-c7ca-4daa-b3fe-c777f2c35caa" />
 
-# 🗂️ Dataset
+# 🗂️ Dataset  
 
 The project uses an Online Retail transaction dataset containing fields such as:
 ```text
@@ -70,9 +70,9 @@ Country       Customer's country
 Revenue       Revenue generated from the transaction
 ```
 
-# 🧹 Data Preparation
+# 🧹 Data Preparation  
 
-Before performing the analysis, transaction data should be checked for records that could distort the results.
+Before performing the analysis, transaction data should be checked for records that could distort the results.  
 
 Important validation areas include:
 
@@ -83,15 +83,15 @@ Returned transactions
 Missing customer information
 Incorrect or incomplete records
 ```
-The analysis focuses on valid transaction records so that revenue and quantity calculations provide meaningful business results.
+The analysis focuses on valid transaction records so that revenue and quantity calculations provide meaningful business results.  
 
 # 📊 QUESTION 1 — Revenue by Month, 2011
-📌 Business Question
-
+📌 Business Question  
 The CEO wants to view the time series of revenue for the year 2011, with monthly-level detail, in order to understand revenue patterns and seasonal trends.  
-🛠️ Tableau Solution
-Chart Type:-Line Chart
-Tableau Configuration
+  
+🛠️ Tableau Solution  
+Chart Type:-Line Chart  
+Tableau Configuration  
 ```text
 Columns → MONTH(Invoice Date)
 
